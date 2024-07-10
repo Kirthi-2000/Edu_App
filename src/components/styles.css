@@ -1,0 +1,51 @@
+.cardContainer {
+  background-color: transparent;
+  width: 350px !important;
+  height: 230px !important;
+}
+
+.cardContainer:hover {
+  transform: rotateY(10deg) rotateX(10deg);
+}
+
+.titleContainer {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.innerCard {
+  transition: transform 0.5s, background 0.5s;
+}
+
+.innerCard.animate {
+  transform: rotateY(360deg) scale(1.1);
+}
+
+.cardIconContainer {
+  transform: translateZ(0);
+}
+
+.centerCard .cardIconContainer {
+  transform: translateZ(20px) scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+.outerCard {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContainer:hover .innerCard {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Add more specific styles for your carousel as needed */
