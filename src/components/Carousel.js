@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './Carousel.css';
+import Card from 'react-bootstrap/Card';
 
 const Carousel = () => {
   const [items, setItems] = useState([
@@ -123,6 +124,8 @@ const Carousel = () => {
   }, []);
 
   return (
+    <Card className="animated-background">
+        <Card.Body>
     <div className="carousel" ref={carouselRef}>
       <div className="list" ref={listRef}>
         {items.map((item, index) => (
@@ -159,7 +162,9 @@ const Carousel = () => {
         <button id="back" onClick={() => carouselRef.current.classList.remove('showDetail')}>See All &#8599;</button>
       </div>
     </div>
-  );
+    </Card.Body>
+    </Card>
+  ); 
 };
 
 export default Carousel;
