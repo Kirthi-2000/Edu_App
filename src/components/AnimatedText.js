@@ -54,10 +54,7 @@ const AnimatedText = () => {
 
   return (
     <div className="animated-text-wrapper">
-      
-      <Link to="/">
-        <button className="top-right-button">Log Out</button>
-      </Link>
+
       <Card className="animated-background">
         <Card.Body>
           <motion.div
