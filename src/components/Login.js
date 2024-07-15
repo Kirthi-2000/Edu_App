@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Login.css'; // Adjusted path for App.css
-import educationalIcon from '../images/online-education-icon4.png';
+import educationalIcon from '../images/online-education-icon4.gif';
 
 function Login() {
   return (

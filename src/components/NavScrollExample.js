@@ -3,7 +3,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Login.css';
 import { Link } from 'react-router-dom';
 
 function BasicExample() {

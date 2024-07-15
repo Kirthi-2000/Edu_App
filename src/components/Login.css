@@ -26,9 +26,12 @@
 }
 
 .educational-icon {
-  margin-top: -111px;
-  width: 315px;
-  height: 683px;
+  margin-top: 50px;
+  width: 240px;
+  height: 473px;
+  margin-left: 59px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .form-container {
@@ -39,11 +42,12 @@
 .form-container h2 {
   margin-bottom: 20px;
   color: #FFB83F;
+  Font-size: 30px;
 }
 
 .bold-text {
   font-weight: bold;
-  font-size: 1.6em; /* Adjust size as needed */
+  font-size: 1.2em; /* Adjust size as needed */
 }
 
 .form-container form input {
